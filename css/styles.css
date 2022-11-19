@@ -1,0 +1,35 @@
+:root {
+  --main-color: #212121;
+  --background-color: #2f303a;
+  --highlight-color: #2196f3;
+  --secondary-color: #ffffff;
+  --secondary-text-color: #757575;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+button:focus {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--highlight-color);
+}
+
+a:focus {
+  color: var(--highlight-color);
+}
