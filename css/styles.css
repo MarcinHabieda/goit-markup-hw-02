@@ -14,30 +14,6 @@ body {
   color: var(--main-color);
 }
 
-button {
-  cursor: pointer;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-}
-
-button:hover {
-  background-color: var(--highlight-color);
-  color: var(--secondary-color);
-}
-
-button:focus {
-  background-color: var(--highlight-color);
-  color: var(--secondary-color);
-}
-
-a:hover {
-  color: var(--highlight-color);
-}
-
-a:focus {
-  color: var(--highlight-color);
-}
-
 .logo-header {
   color: var(--logo-color);
   text-decoration: none;
@@ -47,6 +23,14 @@ a:focus {
   font-family: 'Raleway';
 }
 
+.logo-header:hover {
+  color: var(--highlight-color);
+}
+
+.logo-header:focus {
+  color: var(--highlight-color);
+}
+
 .logo-footer {
   color: var(--secondary-color);
   text-decoration: none;
@@ -54,6 +38,14 @@ a:focus {
   font-size: 26px;
   line-height: 1.19;
   font-family: 'Raleway';
+}
+
+.logo-footer:hover {
+  color: var(--highlight-color);
+}
+
+.logo-footer:focus {
+  color: var(--highlight-color);
 }
 
 .logo-highlight {
@@ -68,12 +60,28 @@ a:focus {
   color: var(--main-color);
 }
 
+.navigation:hover {
+  color: var(--highlight-color);
+}
+
+.navigation:focus {
+  color: var(--highlight-color);
+}
+
 .contact-header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
   color: var(--secondary-text-color);
+}
+
+.contact-header:hover {
+  color: var(--highlight-color);
+}
+
+.contact-header:focus {
+  color: var(--highlight-color);
 }
 
 .contact-footer {
@@ -84,15 +92,22 @@ a:focus {
   color: var(--contact-footer-color);
 }
 
+.contact-footer:hover {
+  color: var(--highlight-color);
+}
+
+.contact-footer:focus {
+  color: var(--highlight-color);
+}
+
 .contact-footer-adress {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
   color: var(--secondary-color);
 }
 
-footer {
+.footer {
   background-color: var(--background-color);
 }
 
@@ -111,6 +126,19 @@ footer {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
+  cursor: pointer;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+}
+
+.title-button:hover {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.title-button:focus {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
 }
 
 .list-title {
@@ -120,7 +148,6 @@ footer {
 }
 
 .list-descryption {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -150,7 +177,6 @@ footer {
 }
 
 .job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
@@ -160,9 +186,22 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  cursor: pointer;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
 }
 
-.table-item {
+.list-button:hover {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.list-button:focus {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+}
+
+.list-item {
   border: 1px solid #eeeeee;
 }
 
@@ -173,7 +212,6 @@ footer {
 }
 
 .category {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
   color: var(--secondary-text-color);
